@@ -1,0 +1,13 @@
+﻿{
+    "name": "health_check",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "~3.4.8",
+        "log4js": "~0.6.12",
+        "request": "~2.34.0",
+        "q": "~1.0.0",
+        "cors": "~2.2.0",
+        "redis": "~0.8.2",
+        "lodash": "~2.4.1"
+    }
+}
