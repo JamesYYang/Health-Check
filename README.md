@@ -1,4 +1,4 @@
 Health-Check
 ============
 
-A simple tool for monitor HTTP or TCP service.
+A simple tool for monitor HTTP or TCP service
