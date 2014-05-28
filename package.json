@@ -1,0 +1,27 @@
+{
+  "name": "Health-Check",
+  "version": "0.0.1",
+  "description": "A simple tool to monitor HTTP or TCP service",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.2.0",
+    "express": "^3.4.8",
+    "request": "^2.34.0",
+    "lodash": "^2.4.1",
+    "file-monitor": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesYYang/Health-Check.git"
+  },
+  "author": "James Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesYYang/Health-Check/issues"
+  },
+  "homepage": "https://github.com/JamesYYang/Health-Check"
+}
