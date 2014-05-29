@@ -7,8 +7,7 @@
     "cors": "^2.2.0",
     "express": "^3.4.8",
     "request": "^2.34.0",
-    "lodash": "^2.4.1",
-    "file-monitor": "0.0.2"
+    "lodash": "^2.4.1"
   },
   "devDependencies": {},
   "scripts": {
