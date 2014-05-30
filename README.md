@@ -31,7 +31,7 @@ server.run();
 
 The options object has two options:
 * `port` : When health-check run, it will build a REST API. You can query health check result via it. So you can specify the port. Default is 9020.
-* `rulesFile` : A Json file to describe the health check rule. A sample like below.
+* `rulesFile` : A Json file to describe the health check rule. A sample like below. __You can modify the rules file anytime without stop the program.__
 
 ```js
 [
