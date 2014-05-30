@@ -1,5 +1,5 @@
 {
-  "name": "Health-Check",
+  "name": "health-check",
   "version": "0.0.1",
   "description": "A simple tool to monitor HTTP or TCP service",
   "main": "index.js",
