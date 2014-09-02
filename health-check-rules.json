@@ -2,16 +2,9 @@
 	{
 		"HealthRuleId": "e970a7f6-0e3e-4bf3-b440-2529f2b0b220",
 		"Protocol": "HTTP",
-		"EnableStringMatching": false,
-		"MatchString": "",
-		"Interval": 30,
-		"Url": "http://10.16.75.10:9043/apiservice/v1/demo/resources-list"
-	}, 
-	{
-		"HealthRuleId": "dd93cb9a-4401-4d5f-8622-33a800d959cc",
-		"Protocol": "TCP",
-		"Port": 776,
-		"Host": "10.1.24.149",
-		"Interval": 10
+		"EnableStringMatching": true,
+		"MatchString": "<?xml version=\"1.0\"?>\n<boolean>true</boolean>",
+		"Interval": 10,
+		"Url": "http://172.16.16.1:8508/diagnosis/heartbeat?format=xml"
 	}
 ]

@@ -1,4 +1,5 @@
 node_modules
 .idea
 *.coffee
+*.map
 test.js
